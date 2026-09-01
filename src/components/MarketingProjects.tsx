@@ -63,23 +63,6 @@ export default function MarketingProjects() {
                 <span className="absolute top-4 left-4 bg-white/20 backdrop-blur-sm text-white text-xs font-semibold px-3 py-1.5 rounded-full">
                   {project.category}
                 </span>
-
-                {/* Result metric — appears on hover */}
-                <div
-                  className={`absolute inset-0 flex items-center justify-center transition-all duration-400 ${
-                    hoveredIndex === index ? "opacity-100" : "opacity-0"
-                  }`}
-                >
-                  <div className="bg-white/15 backdrop-blur-sm rounded-2xl px-6 py-3 text-center">
-                    <p className="text-white/80 text-xs font-medium">Result</p>
-                    <p
-                      className="text-white font-bold text-sm mt-0.5"
-                      style={{ fontFamily: "Playfair Display, serif" }}
-                    >
-                      {project.result}
-                    </p>
-                  </div>
-                </div>
               </div>
 
               {/* Content */}
