@@ -5,136 +5,134 @@
 // Change any text, add/remove items, update links, etc.
 // ============================================================
 
+import profileImg from "../../public/profile.jpg";
+
 export const PORTFOLIO = {
 
   // ─── Personal Info ───────────────────────────────────────
   name: "Tanzil Shandilya",
-  title: "Marketing Strategist",
-  tagline: "Crafting campaigns that",
-  rotatingWords: ["convert.", "captivate.", "connect.", "compel."],
+  title: "Marketing & Business Strategy",
+  tagline: "Turning ideas into",
+  rotatingWords: ["insight.", "strategy.", "impact.", "growth."],
   heroSubtitle:
-    "I build brands, drive growth, and create marketing experiences that leave a lasting impact. From strategy to execution — I make it count.",
-  ctaText: "Let's Work Together",
-  profileImage: "/profile.jpg",
+    "I’m an MBA candidate specialising in Marketing and Business Analytics, interested in the intersection of consumer behaviour, brand strategy, digital marketing and business growth. I turn research and ideas into thoughtful strategies and meaningful execution.",
+  ctaText: "Let's Connect",
+  profileImage: profileImg,
 
   // ─── Marquee Keywords ────────────────────────────────────
   marqueeWords: [
-    "Brand Strategy",
-    "Content Marketing",
-    "SEO & SEM",
-    "Social Media",
-    "Campaign Management",
+    "Marketing Strategy",
+    "Business Analytics",
+    "Brand Development",
+    "Consumer Research",
+    "Digital Marketing",
     "Market Research",
-    "Consumer Psychology",
-    "Growth Hacking",
-    "Data Analytics",
-    "Storytelling",
-    "B2B Marketing",
-    "Digital Advertising",
+    "Go-to-Market Strategy",
+    "Product Thinking",
+    "Content Strategy",
+    "Campaign Execution",
+    "Event Management",
+    "Leadership",
   ],
 
   // ─── About Me ────────────────────────────────────────────
   about: {
-    headline: "Turning Insights Into Impact",
-    bio: `I'm Tanzil Shandilya, a marketing professional with a passion for building brands that resonate and campaigns that convert. My work sits at the intersection of data-driven strategy and creative storytelling.
+    headline: "Curiosity, Strategy & Meaningful Execution",
+    bio: `Hi, I'm Tanzil. Thanks for dropping by!
 
-With experience spanning digital campaigns, consumer research, and social impact initiatives, I bring a holistic perspective to every project I take on. I believe great marketing starts with deep human understanding — and ends with measurable results.`,
+I'm an MBA candidate specialising in Marketing and Business Analytics, with a keen interest in marketing strategy, consumer behaviour, branding, and business research. I enjoy exploring ideas, understanding people, and figuring out how things work.
+
+Beyond the professional side, I'm actively involved in social work, community initiatives, and volunteering. I love organising events, managing teams, and creating experiences that bring people together.
+
+Outside all that, you'll probably find me dancing, exploring musical instruments, or getting involved in something creative.
+
+Always up for a good conversation, creative collaborations, and brainstorming ideas. Feel free to say hello!`,
     stats: [
-      { value: 3, suffix: "+", label: "Years of Experience" },
-      { value: 25, suffix: "+", label: "Campaigns Executed" },
-      { value: 18, suffix: "+", label: "Brands Worked With" },
-      { value: 4, suffix: "M+", label: "Total Reach Generated" },
+      { value: 2, suffix: "", label: "Internship Experiences" },
+      { value: 4, suffix: "+", label: "Digital Platforms Used in Rurali Project" },
+      { value: 15, suffix: "+", label: "Companies Benchmarked" },
+      { value: 5000, suffix: "+", label: "Event Footfall Coordinated" },
     ],
   },
 
   // ─── Work Experience ─────────────────────────────────────
   workExperience: [
     {
-      company: "Ogilvy India",
-      role: "Marketing Strategist",
-      duration: "Jan 2024 – Present",
-      type: "Full-time",
+      company: "Kritical Edge Consulting Pvt. Ltd.",
+      role: "Research and Strategy Trainee",
+      duration: "May 2026 – July 2026",
+      type: "Internship",
       description:
-        "Leading integrated marketing campaigns for FMCG and lifestyle brands. Developed go-to-market strategies that increased client revenue by 35% YoY.",
+        "Contributed to research and business planning for a new digital venture, combining competitive analysis, consumer insights and go-to-market thinking.",
       highlights: [
-        "Managed ₹2Cr+ annual media budget across paid and organic channels",
-        "Spearheaded a brand repositioning campaign reaching 1.2M impressions",
-        "Built and mentored a 4-person content and analytics team",
+        "Conducted competitive benchmarking across 15+ companies to identify market opportunities and differentiation strategies",
+        "Evaluated technology, packaging and certification partners to support vendor selection and business setup",
+        "Developed research inputs for product development, go-to-market planning and customer acquisition",
+        "Contributed to revenue modelling, brand positioning and financial assumptions",
       ],
       color: "#8B4A3C",
     },
     {
-      company: "Dentsu Webchutney",
-      role: "Digital Marketing Associate",
-      duration: "Jul 2022 – Dec 2023",
-      type: "Full-time",
-      description:
-        "Managed social media strategies and performance marketing campaigns for tech and D2C clients. Consistently exceeded KPIs across all assigned accounts.",
-      highlights: [
-        "Grew client Instagram following by 280% in 8 months",
-        "Ran 15+ A/B tested Google and Meta ad campaigns",
-        "Delivered monthly analytics reports to C-suite stakeholders",
-      ],
-      color: "#C4956A",
-    },
-    {
-      company: "The Better India",
-      role: "Content & Growth Intern",
-      duration: "Jan 2022 – Jun 2022",
+      company: "Mushkin International",
+      role: "Digital Marketing Intern",
+      duration: "February 2025 – May 2025",
       type: "Internship",
       description:
-        "Created purpose-driven content for one of India's most impactful digital media platforms. Learned the art of balancing storytelling with SEO best practices.",
+        "Worked on social media performance, competitor analysis and influencer collaboration to strengthen digital presence and audience engagement.",
       highlights: [
-        "Published 30+ long-form articles with avg. 5K+ reads each",
-        "Assisted in community growth strategy, adding 12K newsletter subscribers",
-        "Collaborated with the editorial team on viral campaign execution",
+        "Analysed 10+ competitors to identify content and positioning opportunities",
+        "Collaborated with 30+ influencers and executed two data-driven campaigns",
+        "Contributed to an approximately 25% increase in engagement",
+        "Helped improve brand visibility by approximately 35% within one quarter",
       ],
-      color: "#6B8F71",
+      color: "#C4956A",
     },
   ],
 
   // ─── Skills ──────────────────────────────────────────────
   skillCategories: [
     {
-      category: "Strategy & Planning",
+      category: "Marketing & Strategy",
       skills: [
-        "Brand Strategy",
+        "Marketing Strategy",
+        "Brand Development",
+        "Competitive Benchmarking",
         "Go-to-Market Planning",
-        "Competitive Analysis",
-        "Consumer Research",
-        "Campaign Architecture",
+        "Business Planning",
+        "Market Research",
       ],
     },
     {
-      category: "Digital Marketing",
+      category: "Digital & Content",
       skills: [
-        "SEO / SEM",
-        "Google Ads",
-        "Meta Ads",
-        "Email Marketing",
-        "Performance Marketing",
-        "Marketing Automation",
-      ],
-    },
-    {
-      category: "Content & Creative",
-      skills: [
-        "Copywriting",
+        "Digital Marketing",
+        "Social Media Strategy",
+        "Influencer Collaboration",
+        "Campaign Execution",
         "Content Strategy",
-        "Storytelling",
-        "Brand Voice",
-        "Visual Direction",
+        "Canva",
       ],
     },
     {
-      category: "Analytics & Tools",
+      category: "Analytics & Research",
       skills: [
-        "Google Analytics 4",
-        "HubSpot",
-        "Tableau",
-        "Canva Pro",
-        "Hootsuite",
-        "Semrush",
+        "Business Analytics",
+        "Consumer Research",
+        "Data Analysis",
+        "Advanced Excel",
+        "Power BI",
+        "Market Analysis",
+      ],
+    },
+    {
+      category: "Design & Collaboration",
+      skills: [
+        "Figma",
+        "MS Office",
+        "Communication",
+        "Leadership",
+        "Team Collaboration",
+        "Strategic Thinking",
       ],
     },
   ],
@@ -142,98 +140,69 @@ With experience spanning digital campaigns, consumer research, and social impact
   // ─── Certifications ──────────────────────────────────────
   certifications: [
     {
-      title: "Google Digital Marketing & E-commerce",
-      issuer: "Google",
-      year: "2024",
+      title: "Management Immersion Program",
+      issuer: "IIM Sirmaur",
+      year: "Not specified",
       icon: "🎓",
     },
     {
-      title: "HubSpot Content Marketing Certification",
-      issuer: "HubSpot Academy",
-      year: "2023",
-      icon: "🏅",
-    },
-    {
-      title: "Meta Certified Digital Marketing Associate",
-      issuer: "Meta Blueprint",
-      year: "2023",
-      icon: "📱",
-    },
-    {
-      title: "Consumer Psychology & Behaviour",
-      issuer: "Coursera / Nansen",
-      year: "2022",
-      icon: "🧠",
+      title: "Business Analytics Certification",
+      issuer: "HCL Tech",
+      year: "Not specified",
+      icon: "📊",
     },
   ],
 
   // ─── Marketing Projects ──────────────────────────────────
   marketingProjects: [
     {
-      title: "Reviving a Legacy FMCG Brand",
-      category: "Brand Strategy",
+      title: "Rurali — Live Digital Marketing Project",
+      category: "Digital Marketing",
       description:
-        "Led a full brand repositioning for a 30-year-old FMCG brand to appeal to Gen Z consumers without alienating existing loyalists. Developed a dual-audience content architecture.",
-      result: "+42% brand recall among 18–25 demographic",
-      tags: ["Brand Strategy", "Content", "Research"],
+        "Executed digital marketing campaigns across four platforms as part of a live academic project, focusing on audience engagement and reach.",
+      result:
+        "10% engagement increase in two weeks · approximately 80% reach from non-followers",
+      tags: ["Digital Marketing", "Campaign Execution", "Social Media"],
       gradient: "from-[#8B4A3C] to-[#C4956A]",
     },
     {
-      title: "#SheLeads — Viral Social Campaign",
-      category: "Social Media",
+      title: "Haldiram’s × Gen Z — Brand Strategy",
+      category: "Brand Strategy",
       description:
-        "Conceptualised and executed a campaign celebrating women in business. The campaign organically trended on Twitter/X and generated 3.2M impressions in 48 hours.",
-      result: "3.2M impressions · 180K engagements",
-      tags: ["Social Media", "Campaign", "Viral"],
+        "Developed a Gen Z brand engagement strategy for Haldiram’s, using consumer insights, cultural marketing and social-first campaign thinking to strengthen brand relevance.",
+      result: "Academic brand strategy project",
+      tags: ["Brand Strategy", "Consumer Insights", "Gen Z"],
       gradient: "from-[#5C6B7A] to-[#8FA3B1]",
-    },
-    {
-      title: "D2C Skincare Launch — Full Funnel",
-      category: "Performance Marketing",
-      description:
-        "End-to-end performance marketing strategy for a D2C skincare startup's product launch. Managed ₹40L budget across Google, Meta, and influencer channels.",
-      result: "4.8x ROAS in first campaign cycle",
-      tags: ["Performance", "Paid Ads", "D2C"],
-      gradient: "from-[#6B8F71] to-[#A8C5A0]",
-    },
-    {
-      title: "B2B SaaS LinkedIn Strategy",
-      category: "B2B Marketing",
-      description:
-        "Built a thought leadership content programme on LinkedIn for a B2B SaaS company, growing their company page followers and driving qualified demo bookings.",
-      result: "+620% LinkedIn follower growth in 6 months",
-      tags: ["B2B", "LinkedIn", "Content"],
-      gradient: "from-[#7C6A9A] to-[#A899C4]",
     },
   ],
 
   // ─── Research Projects ───────────────────────────────────
   researchProjects: [
     {
-      title: "The Psychology of Impulse Buying in the Age of Short-Form Video",
-      journal: "Indian Journal of Marketing Research",
-      year: "2024",
+      title: "Leading Digital Transformation in Universities",
+      journal: "PRME International Conference, 2026",
+      year: "2026",
       abstract:
-        "This paper explores how platforms like Instagram Reels and YouTube Shorts exploit cognitive biases to drive impulsive purchase behaviour, with empirical data from 400+ respondents.",
-      tags: ["Consumer Psychology", "Social Media", "Behavioural Economics"],
+        "Co-authored and presented research on AI-enabled leadership, organisational change and digital transformation in higher education.",
+      tags: ["Digital Transformation", "AI", "Leadership"],
       link: "#",
     },
     {
-      title: "Cause Marketing and Brand Trust: A Study of Indian Millennials",
-      journal: "Journal of Brand Management — Springer",
-      year: "2023",
+      title: "Sustainability Communication & Brand Trust",
+      journal: "Independent research topic shared on LinkedIn",
+      year: "Not specified",
       abstract:
-        "Examining the correlation between purpose-driven marketing campaigns and long-term brand trust among millennials in tier-1 Indian cities. Findings revealed a 68% higher trust index for cause-aligned brands.",
-      tags: ["Cause Marketing", "Brand Trust", "Millennial Research"],
-      link: "#",
+        "Explores how sustainability communication, green skepticism and emotional messaging influence consumer perceptions and brand loyalty. The LinkedIn discussion highlights the importance of credible, transparent claims over broad sustainability messaging.",
+      tags: ["Sustainability", "Brand Trust", "Consumer Behaviour"],
+      link: "https://www.linkedin.com/in/tanzil-shandilya/",
     },
     {
-      title: "Influencer Authenticity vs. Reach: Which Drives More Conversions?",
-      journal: "International Journal of Digital Commerce",
-      year: "2022",
+      title: "AI-Driven Revenue Models in Advertising Agencies",
+      journal: "IIM Nagpur Case Study & Research Conference, 2026",
+      year: "2026",
       abstract:
-        "A mixed-methods study comparing macro vs. micro influencer campaigns across 12 brands, measuring conversion rate, CPL, and brand sentiment as primary metrics.",
-      tags: ["Influencer Marketing", "Digital Commerce", "Analytics"],
+        "Analyses AI’s impact on advertising agency revenue models, pricing strategies and value creation in digital marketing. Authored and presented as a case study.",
+      tags: ["AI", "Advertising", "Revenue Models"],
       link: "#",
     },
   ],
@@ -241,45 +210,51 @@ With experience spanning digital campaigns, consumer research, and social impact
   // ─── Social Work ─────────────────────────────────────────
   socialWork: [
     {
-      title: "Marketing Mentor — She Means Business",
-      organisation: "She Means Business · Meta Program",
-      duration: "2023 – Present",
+      title: "Head, Delhi Wing",
+      organisation: "AVI Foundation",
+      duration: "October 2021 – November 2025",
       description:
-        "Volunteer marketing mentor for women entrepreneurs enrolled in Meta's She Means Business programme. Guided 40+ women-led startups on digital marketing strategy.",
-      impact: "40+ women entrepreneurs mentored",
-      icon: "🌸",
+        "Led conservation initiatives, awareness campaigns and stakeholder collaborations, engaging participants in community-focused activities.",
+      impact: "100+ participants engaged",
+      icon: "🌱",
     },
     {
-      title: "Digital Literacy Workshops",
-      organisation: "Barefoot College India",
-      duration: "2022 – 2023",
+      title: "Vice President, Cultural Club",
+      organisation: "IILM University",
+      duration: "Not specified",
       description:
-        "Conducted 15+ digital marketing workshops in rural communities, empowering local artisans and self-help groups to sell their products online and build digital presence.",
-      impact: "500+ people trained across 8 villages",
-      icon: "💡",
+        "Co-led the planning and execution of more than ten cultural events, coordinating teams and event operations.",
+      impact: "10+ events coordinated",
+      icon: "🎤",
     },
     {
-      title: "Pro Bono — NGO Marketing Strategy",
-      organisation: "Udaan Foundation",
-      duration: "2021 – 2022",
+      title: "Community & Student Leadership",
+      organisation: "Rotaract Club of Delhi Elite, Pro-Scholar and Interact Club",
+      duration: "Various roles",
       description:
-        "Provided full pro bono marketing support to Udaan Foundation, an NGO supporting underprivileged youth education. Doubled their donor base through a targeted digital outreach campaign.",
-      impact: "2x donor growth · ₹8L funds raised",
+        "Contributed to skill-development initiatives, community outreach, fundraisers and NGO-collaborated social impact events.",
+      impact: "Community engagement and volunteer initiatives",
       icon: "🤝",
     },
   ],
 
   // ─── Contact & Socials ───────────────────────────────────
   contact: {
-    headline: "Let's Create Something Great",
+    headline: "Have an Idea? Let’s Connect.",
     subtext:
-      "Whether you have a project in mind, a question, or just want to say hello — I'd love to hear from you.",
-    email: "tanzil@example.com",
+      "I’m always open to conversations about marketing, business strategy, research, collaborations and opportunities to learn and create meaningful work.",
+    email: "tanzil.shandilya.gnmba27@iilm.edu",
     socials: [
-      { label: "LinkedIn", url: "https://linkedin.com/in/tanzilshandilya", icon: "linkedin" },
-      { label: "Twitter / X", url: "https://twitter.com/tanzilshandilya", icon: "twitter" },
-      { label: "Instagram", url: "https://instagram.com/tanzilshandilya", icon: "instagram" },
-      { label: "Email", url: "mailto:tanzil@example.com", icon: "mail" },
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/in/tanzil-shandilya/",
+        icon: "linkedin",
+      },
+      {
+        label: "Email",
+        url: "mailto:tanushandilya123@gmail.com",
+        icon: "mail",
+      },
     ],
   },
 };

@@ -235,8 +235,9 @@ export default function Hero() {
                   src={PORTFOLIO.profileImage}
                   alt={`${PORTFOLIO.name} — ${PORTFOLIO.title}`}
                   fill
+                  sizes="(max-width: 768px) 288px, 384px"
                   className="object-cover transition-transform duration-700 hover:scale-105"
-                  priority
+                  preload
                 />
               </div>
 
