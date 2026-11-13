@@ -256,25 +256,10 @@ export default function Hero() {
                   className="text-[#2C1810] font-bold text-sm"
                   style={{ fontFamily: "Playfair Display, serif" }}
                 >
-                  Ogilvy India
+                  Delhi, India
                 </p>
               </div>
 
-              {/* Floating badge — top right */}
-              <div
-                className="absolute -top-5 -right-5 glass px-4 py-3 rounded-2xl shadow-lg animate-float-reverse cursor-default"
-                style={{ animationDelay: "0.4s" }}
-              >
-                <p className="text-[10px] text-[#6B5744] font-medium tracking-wide">
-                  Reach Generated
-                </p>
-                <p
-                  className="text-[#8B4A3C] font-bold text-xl"
-                  style={{ fontFamily: "Playfair Display, serif" }}
-                >
-                  4M+
-                </p>
-              </div>
             </div>
           </div>
         </div>
