@@ -2,6 +2,7 @@
 
 import { ExternalLink, TrendingUp } from "lucide-react";
 import { PORTFOLIO } from "@/app/content";
+import { trackProjectClick } from "@/lib/analytics";
 
 export default function ResearchProjects() {
   const { researchProjects } = PORTFOLIO;
@@ -47,6 +48,7 @@ function ResearchCard({
 }) {
   return (
     <details
+      onClick={() => trackProjectClick(paper.title, "Research Publication")}
       className={`reveal delay-${index * 100 + 100} group bg-[#EDE8DC] rounded-2xl border border-[#C4956A]/20 overflow-hidden cursor-pointer`}
     >
       {/* Summary (always visible) */}

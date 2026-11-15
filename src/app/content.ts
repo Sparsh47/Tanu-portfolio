@@ -17,6 +17,7 @@ export const PORTFOLIO = {
   heroSubtitle:
     "I’m an MBA candidate specialising in Marketing and Business Analytics, interested in the intersection of consumer behaviour, brand strategy, digital marketing and business growth. I turn research and ideas into thoughtful strategies and meaningful execution.",
   ctaText: "Let's Connect",
+  resumeUrl: "/resume.pdf",
   profileImage: profileImg,
 
   // ─── Marquee Keywords ────────────────────────────────────

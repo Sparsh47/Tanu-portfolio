@@ -12,6 +12,7 @@ import {
   Loader2,
 } from "lucide-react";
 import { PORTFOLIO } from "@/app/content";
+import { trackContactFormSubmit } from "@/lib/analytics";
 
 const socialIconMap: Record<string, ReactNode> = {
   linkedin: <Link2 size={18} strokeWidth={1.5} />,
@@ -66,6 +67,7 @@ export default function Contact() {
       const data = await response.json();
 
       if (response.ok) {
+        trackContactFormSubmit({ method: "contact_form_api" });
         setFormData({ name: "", email: "", message: "" });
         toast.success(
           `Thanks, ${formData.name.split(" ")[0]}! I'll get back to you soon.`,

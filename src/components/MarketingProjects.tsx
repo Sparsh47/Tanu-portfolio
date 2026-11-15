@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { BarChart2 } from "lucide-react";
 import { PORTFOLIO } from "@/app/content";
+import { trackProjectClick } from "@/lib/analytics";
 
 export default function MarketingProjects() {
   const { marketingProjects } = PORTFOLIO;
@@ -39,7 +40,8 @@ export default function MarketingProjects() {
           {marketingProjects.map((project, index) => (
             <div
               key={project.title}
-              className={`reveal delay-${index * 100 + 100} card-hover group relative bg-[#F5EFE0] rounded-3xl overflow-hidden border border-[#C4956A]/20 cursor-default`}
+              onClick={() => trackProjectClick(project.title, project.category)}
+              className={`reveal delay-${index * 100 + 100} card-hover group relative bg-[#F5EFE0] rounded-3xl overflow-hidden border border-[#C4956A]/20 cursor-pointer`}
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
             >

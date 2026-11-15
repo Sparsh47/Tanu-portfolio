@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import AnalyticsProvider from "@/components/AnalyticsProvider";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -43,6 +44,7 @@ export default function RootLayout({
         />
       </head>
       <body className="antialiased">
+        <AnalyticsProvider />
         {children}
         <Script
           src="https://www.googletagmanager.com/gtm.js?id=GTM-WMS2FBXC"

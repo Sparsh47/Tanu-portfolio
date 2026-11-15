@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useCallback } from "react";
 import Image from "next/image";
-import { ArrowDown, Sparkles, MapPin } from "lucide-react";
+import { ArrowDown, Sparkles, MapPin, FileText } from "lucide-react";
 import { PORTFOLIO } from "@/app/content";
 
 export default function Hero() {
@@ -186,6 +186,20 @@ export default function Hero() {
                   className="group-hover:translate-y-0.5 transition-transform duration-300"
                 />
               </button>
+              {PORTFOLIO.resumeUrl && (
+                <a
+                  href={PORTFOLIO.resumeUrl}
+                  download="Tanzil_Shandilya_Resume.pdf"
+                  data-track="resume"
+                  className="border border-[#C4956A]/50 text-[#8B4A3C] hover:bg-[#8B4A3C] hover:text-[#F5EFE0] hover:border-[#8B4A3C] text-sm font-semibold px-6 py-4 rounded-full transition-all duration-300 cursor-pointer flex items-center gap-2 group"
+                >
+                  <FileText
+                    size={14}
+                    className="group-hover:scale-110 transition-transform duration-300 text-[#C4956A] group-hover:text-[#F5EFE0]"
+                  />
+                  <span>Resume</span>
+                </a>
+              )}
             </div>
 
             {/* Stats row */}

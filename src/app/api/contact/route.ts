@@ -25,8 +25,6 @@ export async function POST(request: Request) {
 
     // ─── Send notification to portfolio owner ──────────────
     await resend.emails.send({
-      // 'from' must be a verified domain on Resend, or use:
-      // "onboarding@resend.dev" for testing (only sends to verified email)
       from: "Portfolio Contact <onboarding@resend.dev>",
       to: [process.env.CONTACT_EMAIL ?? "tanzil@example.com"],
       replyTo: email,
