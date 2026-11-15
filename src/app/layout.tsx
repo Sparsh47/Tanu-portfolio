@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     "Tanzil Shandilya",
   ],
   authors: [{ name: "Tanzil Shandilya" }],
+  verification: {
+    google: "google19a5526715cb9158",
+  },
   openGraph: {
     title: "Tanzil Shandilya — Marketing Strategist",
     description:
