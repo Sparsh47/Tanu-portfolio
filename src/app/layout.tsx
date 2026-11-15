@@ -3,7 +3,11 @@ import Script from "next/script";
 import AnalyticsProvider from "@/components/AnalyticsProvider";
 import "./globals.css";
 
+const BASE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://tanzil-shandilya.vercel.app/";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(BASE_URL),
   title: "Tanzil Shandilya — Marketing Strategist",
   description:
     "Portfolio of Tanzil Shandilya — a marketing strategist crafting campaigns that convert, captivate, and connect. Expert in brand strategy, digital marketing, and consumer research.",
